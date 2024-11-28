@@ -1,0 +1,1 @@
+A Chrome extension that automatically exits playlist mode on YouTube.
