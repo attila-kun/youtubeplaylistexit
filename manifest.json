@@ -4,13 +4,17 @@
     "version": "1.0",
     "description": "Automatically removes the playlist context from YouTube videos.",
     "permissions": [
-      "tabs"
+      "tabs",
+      "storage"
     ],
     "host_permissions": [
       "https://www.youtube.com/*"
     ],
     "background": {
       "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
     }
   }
   
